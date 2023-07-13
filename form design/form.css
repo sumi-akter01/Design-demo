@@ -1,0 +1,44 @@
+.table{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: solid;
+    transition: .40s;
+    border-collapse:collapse ;
+}
+.table > div{
+    border:1px solid black;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.m{
+    background-color: rgb(243, 181, 212);
+}
+.user-area{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.user-area > div{
+    border: 2px solid rgb(19, 20, 20);
+    padding-top: 22px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: lightcoral;
+    width: 300px;
+    margin-left: 660px;
+    transition: .40s;
+}
+h2:hover{
+
+    box-shadow: 2px 4px 16px rgb(94, 49, 49);
+}
+.table:hover{
+    box-shadow: 2px 4px 18px rgb(32, 26, 26);
+}
+
+@media screen {
+    
+}
